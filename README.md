@@ -1,0 +1,50 @@
+# AIRC 201 Practice
+
+This repository contains coding practice assignments and homework for the AIRC 201 course. It is designed to help students strengthen their Python programming skills through a series of hands-on problems ranging from basic syntax to intermediate algorithmic challenges.
+
+## Repository Structure
+
+The repository is organized by homework assignments. Each folder (e.g., `HW1`, `HW2`) contains:
+- `problems.py`: The file where you will implement your solutions.
+- `tests.py`: Evaluation scripts to verify your code.
+- `README.md`: Specific instructions and problem descriptions for that assignment.
+
+## Setup Instructions
+
+### 1. Prerequisites
+Ensure you have **Python 3.12** installed on your machine. You can download it from [python.org](https://www.python.org/downloads/).
+
+### 2. Installation
+
+1. Clone or download this repository.
+
+2. Open a terminal (Terminal, Command Prompt, PowerShell, etc.) in the root directory of this project.
+
+3. Install the required dependencies using `pip`:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## How to Run Tests
+
+Each homework assignment comes with a dedicated test suite. You can run these tests to check your progress and correctness.
+
+To run the tests for a specific homework (e.g., `HW1`), execute the following command from the root directory:
+
+```bash
+python HW1/tests.py
+```
+
+As new assignments are added (e.g., `HW2`, `HW3`), you will follow the same pattern; for example, run this for `HW2`:
+
+```bash
+python HW2/tests.py
+```
+
+## Workflow
+
+1. Read the `README.md` inside the specific homework folder (e.g., `HW1/README.md`) to understand the problems.
+2. Edit the `problems.py` file in that folder to implement your solutions.
+3. Run the `tests.py` script frequently to verify your code.
+4. Repeat until all tests pass!
