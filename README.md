@@ -45,6 +45,6 @@ python HW2/tests.py
 ## Workflow
 
 1. Read the `README.md` inside the specific homework folder (e.g., `HW1/README.md`) to understand the problems.
-2. Edit the `problems.py` file in that folder to implement your solutions.
-3. Run the `tests.py` script frequently to verify your code.
+2. Edit the `problems.py` file in that folder to implement your solutions. In some HWs, there may be multiple problem files of the format `problems_*.py`.
+3. Run the `tests.py` script frequently to verify your code. In some HWs, there may be multiple test files of the format `tests_*.py`.
 4. Repeat until all tests pass!
