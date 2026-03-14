@@ -1,0 +1,3252 @@
+[
+    {
+        "interaction_id": "interaction_1000",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 1 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 2 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 2 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1001",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.78,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1002",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.75,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1003",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1004",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.97,
+            "agent_time_taken_sec": 5,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1005",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.69,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1006",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #70142?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 64,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1007",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.94,
+            "agent_time_taken_sec": 22,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1008",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #42953?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 9,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1009",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #44522?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.96,
+            "agent_time_taken_sec": 22,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1010",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.61,
+            "agent_time_taken_sec": 51,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1011",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #19071?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 72,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1012",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1013",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1014",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #80678?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.96,
+            "agent_time_taken_sec": 31,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.3
+        }
+    },
+    {
+        "interaction_id": "interaction_1015",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #65519?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.94,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1016",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 2 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.77,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1017",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.66,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 3.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1018",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #65444?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.67,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1019",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #79615?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.97,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1020",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.63,
+            "agent_time_taken_sec": 66,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1021",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #98039?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.72,
+            "agent_time_taken_sec": 65,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1022",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.71,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1023",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 2 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.89,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1024",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1025",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.95,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1026",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 71,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 3.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1027",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.94,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 2.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1028",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #50001?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.61,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1029",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1030",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.77,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 3.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1031",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.95,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1032",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #32810?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.81,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1033",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #38010?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.67,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1034",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.62,
+            "agent_time_taken_sec": 57,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1035",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #62383?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1036",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.78,
+            "agent_time_taken_sec": 63,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1037",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1038",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 6 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.73,
+            "agent_time_taken_sec": 55,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1039",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.78,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1040",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #56105?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.93,
+            "agent_time_taken_sec": 64,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1041",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #60968?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1042",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #83975?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.3
+        }
+    },
+    {
+        "interaction_id": "interaction_1043",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #65255?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.78,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 2.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1044",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 26,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 3.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1045",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 7 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.83,
+            "agent_time_taken_sec": 55,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1046",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 3.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1047",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #66822?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.95,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1048",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.92,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1049",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #13761?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.67,
+            "agent_time_taken_sec": 5,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1050",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1051",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.69,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1052",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.68,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1053",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.92,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1054",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.82,
+            "agent_time_taken_sec": 26,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1055",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.66,
+            "agent_time_taken_sec": 24,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1056",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.94,
+            "agent_time_taken_sec": 58,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1057",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.67,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1058",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.69,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1059",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.63,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1060",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.81,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 3.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1061",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.62,
+            "agent_time_taken_sec": 62,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1062",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.73,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1063",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 14,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1064",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #67939?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 25,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1065",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.69,
+            "agent_time_taken_sec": 63,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1066",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.98,
+            "agent_time_taken_sec": 5,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1067",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1068",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #73483?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.82,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1069",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.89,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1070",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 70,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1071",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #44737?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.87,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1072",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 81,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 2.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1073",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.62,
+            "agent_time_taken_sec": 52,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1074",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.94,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1075",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #87014?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.98,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 3.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1076",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 7 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.6,
+            "agent_time_taken_sec": 70,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1077",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1078",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #36318?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.94,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1079",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 50,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1080",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1081",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #49608?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 47,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1082",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1083",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #57537?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.74,
+            "agent_time_taken_sec": 46,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1084",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1085",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1086",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1087",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1088",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.71,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1089",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 7 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.78,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 3.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1090",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 22,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1091",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.62,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1092",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 22,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1093",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 58,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 3.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1094",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 1 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 27,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1095",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 2 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.63,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1096",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 8,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1097",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.73,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1098",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.61,
+            "agent_time_taken_sec": 60,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1099",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1100",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #50668?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.73,
+            "agent_time_taken_sec": 8,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1101",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.68,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1102",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.96,
+            "agent_time_taken_sec": 22,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1103",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.83,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1104",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.83,
+            "agent_time_taken_sec": 59,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1105",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #29773?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 59,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1106",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.3
+        }
+    },
+    {
+        "interaction_id": "interaction_1107",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #43029?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.63,
+            "agent_time_taken_sec": 47,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1108",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 25,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1109",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #57425?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.72,
+            "agent_time_taken_sec": 71,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1110",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.73,
+            "agent_time_taken_sec": 75,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 2.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1111",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1112",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.74,
+            "agent_time_taken_sec": 61,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1113",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.62,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1114",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #39102?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.96,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1115",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1116",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 1 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 2 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 2 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.93,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1117",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 2 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 69,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1118",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1119",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #43246?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1120",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.67,
+            "agent_time_taken_sec": 77,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 3.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1121",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #48462?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1122",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 7 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.74,
+            "agent_time_taken_sec": 37,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1123",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #54438?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.87,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1124",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.63,
+            "agent_time_taken_sec": 53,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 3.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1125",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #56210?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1126",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 14,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1127",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1128",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.99,
+            "agent_time_taken_sec": 14,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1129",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #99381?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.74,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1130",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.61,
+            "agent_time_taken_sec": 24,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1131",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.92,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1132",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.77,
+            "agent_time_taken_sec": 75,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1133",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1134",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1135",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.95,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1136",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #17852?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1137",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1138",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 14,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1139",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.71,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1140",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1141",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.98,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1142",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 1 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.8,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1143",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.82,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1144",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 3.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1145",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.69,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1146",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 14,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1147",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.3
+        }
+    },
+    {
+        "interaction_id": "interaction_1148",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.87,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1149",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.71,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.3
+        }
+    },
+    {
+        "interaction_id": "interaction_1150",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.87,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1151",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1152",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1153",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.84,
+            "agent_time_taken_sec": 58,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1154",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1155",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #66059?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 11,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 3.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1156",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #44995?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.83,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1157",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 54,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1158",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #89395?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.87,
+            "agent_time_taken_sec": 88,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1159",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.96,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1160",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.83,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1161",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.61,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1162",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.71,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1163",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #59479?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.87,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 3.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1164",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.98,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1165",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.92,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1166",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.68,
+            "agent_time_taken_sec": 67,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1167",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.72,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1168",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #78742?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1169",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1170",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #58637?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 22,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1171",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.68,
+            "agent_time_taken_sec": 56,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1172",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.78,
+            "agent_time_taken_sec": 8,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1173",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #51973?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.72,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1174",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.93,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1175",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1176",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #92667?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1177",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #73944?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.81,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1178",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #33496?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.8,
+            "agent_time_taken_sec": 11,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1179",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #84055?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.69,
+            "agent_time_taken_sec": 24,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1180",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #82443?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.85,
+            "agent_time_taken_sec": 27,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1181",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.87,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1182",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #49226?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.69,
+            "agent_time_taken_sec": 68,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 3.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1183",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.77,
+            "agent_time_taken_sec": 61,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 3.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1184",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #39902?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.97,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1185",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 1 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 3 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1186",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.82,
+            "agent_time_taken_sec": 11,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1187",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #48253?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.3
+        }
+    },
+    {
+        "interaction_id": "interaction_1188",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.77,
+            "agent_time_taken_sec": 14,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1189",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1190",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #95332?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.73,
+            "agent_time_taken_sec": 73,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 4.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1191",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #41775?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.71,
+            "agent_time_taken_sec": 41,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1192",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1193",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.78,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1194",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 7 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 20,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.3
+        }
+    },
+    {
+        "interaction_id": "interaction_1195",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #11382?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.69,
+            "agent_time_taken_sec": 72,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1196",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1197",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #72411?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.88,
+            "agent_time_taken_sec": 12,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1198",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1199",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 6 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.89,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1200",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #93769?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.75,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 3.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1201",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1202",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.79,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1203",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 6 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.98,
+            "agent_time_taken_sec": 21,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1204",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.61,
+            "agent_time_taken_sec": 24,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1205",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1206",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.74,
+            "agent_time_taken_sec": 68,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1207",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1208",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 62,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 3.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1209",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.9,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1210",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 7 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.97,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1211",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.98,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1212",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #55054?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. I have expedited your replacement.",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 51,
+            "agent_edit_distance_chars": 35,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1213",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.64,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1214",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #21953?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.68,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 3.8
+        }
+    },
+    {
+        "interaction_id": "interaction_1215",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 7 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.63,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1216",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.81,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1217",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #99989?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.63,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1218",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.82,
+            "agent_time_taken_sec": 22,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1219",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.75,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1220",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product SuperGadget 3000 is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that SuperGadget 3000 didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "metrics": {
+            "ai_confidence_score": 0.96,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1221",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 1 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 2 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 2 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 24,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1222",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #62727?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.81,
+            "agent_time_taken_sec": 15,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1223",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 3 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.7,
+            "agent_time_taken_sec": 61,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 3.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1224",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.6,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.3
+        }
+    },
+    {
+        "interaction_id": "interaction_1225",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 3.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1226",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.66,
+            "agent_time_taken_sec": 54,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 3.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1227",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #33456?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.91,
+            "agent_time_taken_sec": 11,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1228",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 5 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 8 days. Here is your tracking link. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.86,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 3.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1229",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.82,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1230",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product UltraWidget is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that UltraWidget didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.6,
+            "agent_time_taken_sec": 10,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1231",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 2 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 4 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.79,
+            "agent_time_taken_sec": 17,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1232",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.65,
+            "agent_time_taken_sec": 65,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1233",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.92,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1234",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.93,
+            "agent_time_taken_sec": 9,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1235",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.75,
+            "agent_time_taken_sec": 22,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1236",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 4 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 5 days. Here is your tracking link. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.6,
+            "agent_time_taken_sec": 68,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 4.9
+        }
+    },
+    {
+        "interaction_id": "interaction_1237",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "metrics": {
+            "ai_confidence_score": 0.68,
+            "agent_time_taken_sec": 18,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1238",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #13864?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.77,
+            "agent_time_taken_sec": 11,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 3.7
+        }
+    },
+    {
+        "interaction_id": "interaction_1239",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product AeroPhone Case is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that AeroPhone Case didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.76,
+            "agent_time_taken_sec": 16,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1240",
+        "inquiry_type": "complaint",
+        "customer_inquiry": "The quality of the product GlowLamp is terrible. Very disappointed.",
+        "ai_suggestion": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund.",
+        "agent_final_response": "We apologize that GlowLamp didn't meet your expectations. You can return it within 30 days for a full refund. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.74,
+            "agent_time_taken_sec": 26,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.6
+        }
+    },
+    {
+        "interaction_id": "interaction_1241",
+        "inquiry_type": "tech_support",
+        "customer_inquiry": "How do I reset my password? I am locked out of my account.",
+        "ai_suggestion": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email.",
+        "agent_final_response": "To reset your password, please click the 'Forgot Password' link on the login page and follow the instructions sent to your email. We value your business!",
+        "metrics": {
+            "ai_confidence_score": 0.62,
+            "agent_time_taken_sec": 60,
+            "agent_edit_distance_chars": 24,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1242",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Let me know if you need anything else.",
+        "metrics": {
+            "ai_confidence_score": 0.87,
+            "agent_time_taken_sec": 69,
+            "agent_edit_distance_chars": 39,
+            "customer_satisfaction_score": 4.5
+        }
+    },
+    {
+        "interaction_id": "interaction_1243",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Thanks!",
+        "metrics": {
+            "ai_confidence_score": 0.79,
+            "agent_time_taken_sec": 13,
+            "agent_edit_distance_chars": 8,
+            "customer_satisfaction_score": 4.4
+        }
+    },
+    {
+        "interaction_id": "interaction_1244",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.66,
+            "agent_time_taken_sec": 72,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1245",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.72,
+            "agent_time_taken_sec": 23,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 4.2
+        }
+    },
+    {
+        "interaction_id": "interaction_1246",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "metrics": {
+            "ai_confidence_score": 0.67,
+            "agent_time_taken_sec": 19,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1247",
+        "inquiry_type": "damage",
+        "customer_inquiry": "My item arrived broken. I need a refund or a replacement.",
+        "ai_suggestion": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately.",
+        "agent_final_response": "I am so sorry to hear your item arrived broken. Please provide a photo of the damage and we will process a replacement immediately. Please check your spam folder if you don't see the email.",
+        "metrics": {
+            "ai_confidence_score": 0.82,
+            "agent_time_taken_sec": 70,
+            "agent_edit_distance_chars": 58,
+            "customer_satisfaction_score": 4.1
+        }
+    },
+    {
+        "interaction_id": "interaction_1248",
+        "inquiry_type": "shipping",
+        "customer_inquiry": "Where is my package? It was supposed to arrive 7 days ago.",
+        "ai_suggestion": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link.",
+        "agent_final_response": "I apologize for the delay. Your package is currently in transit and should arrive in 9 days. Here is your tracking link.",
+        "metrics": {
+            "ai_confidence_score": 0.6,
+            "agent_time_taken_sec": 8,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    },
+    {
+        "interaction_id": "interaction_1249",
+        "inquiry_type": "account_management",
+        "customer_inquiry": "Can I change the shipping address on order #65004?",
+        "ai_suggestion": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "agent_final_response": "I can help with that. If the order hasn't shipped yet, I have updated the address to the newly provided one.",
+        "metrics": {
+            "ai_confidence_score": 0.79,
+            "agent_time_taken_sec": 8,
+            "agent_edit_distance_chars": 0,
+            "customer_satisfaction_score": 5.0
+        }
+    }
+]
