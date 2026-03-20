@@ -28,7 +28,7 @@ Ensure you have **Python 3.12** installed on your machine. You can download it f
 
 ## How to Run Tests
 
-Each homework assignment comes with a dedicated test suite. You can run these tests to check your progress and correctness.
+Some homework assignments come with a dedicated test suite. You can run these tests to check your progress and correctness. Note that some homework assignments do not have tests. Always read through the `README.md` in the homework folder to check.
 
 To run the tests for a specific homework (e.g., `HW1`), execute the following command from the root directory:
 
@@ -36,7 +36,7 @@ To run the tests for a specific homework (e.g., `HW1`), execute the following co
 python HW1/tests.py
 ```
 
-As new assignments are added (e.g., `HW2`, `HW3`), you will follow the same pattern; for example, run this for `HW2`:
+As new assignments are added (e.g., `HW2`), you will follow the same pattern; for example, run this for `HW2`:
 
 ```bash
 python HW2/tests.py
@@ -46,5 +46,5 @@ python HW2/tests.py
 
 1. Read the `README.md` inside the specific homework folder (e.g., `HW1/README.md`) to understand the problems.
 2. Edit the `problems.py` file in that folder to implement your solutions. In some HWs, there may be multiple problem files of the format `problems_*.py`.
-3. Run the `tests.py` script frequently to verify your code. In some HWs, there may be multiple test files of the format `tests_*.py`.
-4. Repeat until all tests pass!
+3. Run the `tests.py` script frequently to verify your code. In some HWs, there may be multiple test files of the format `tests_*.py`. In some HWs, there may be no tests. Please read the `README.md` inside the homework folder for case specific instructions.
+4. Repeat until all tests pass, or until you finish the desired objective!
