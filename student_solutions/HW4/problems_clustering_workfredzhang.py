@@ -32,15 +32,15 @@ assignments = {}
 
 # START STUDENT IMPLEMENTATION HERE
 
-# TODO: Scale the 2D feature matrix X using StandardScaler before clustering.
+# TODO 1: Scale the data
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
 
-
-# TODO: Run KMeans clustering for k=3, k=4, and k=5.
-#       For each k:
-#         1. Instantiate the KMeans model with n_clusters=k and set random_state=67.
-#         2. Fit the model to the scaled data and obtain cluster labels.
-#         3. Save the labels array into the `assignments` dictionary with k as the key.
-
+# TODO 2: Run KMeans for k = 3, 4, 5
+for k in [3, 4, 5]:
+    kmeans = KMeans(n_clusters=k, random_state=67)
+    labels = kmeans.fit_predict(X_scaled)
+    assignments[k] = labels
 
 # END STUDENT IMPLEMENTATION HERE
 
