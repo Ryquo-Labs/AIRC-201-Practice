@@ -24,46 +24,73 @@ df = pd.read_csv(data_path)
 # START STUDENT IMPLEMENTATION HERE
 
 # Step 1: Preprocessing
-# TODO: Inspect the dataframe. Drop irrelevant columns like 'nameOrig' and 'nameDest' 
-#       which are arbitrary string IDs. 
-# TODO: Encode categorical variables. You may want to use `pd.get_dummies` or `LabelEncoder` 
-#       for the 'type' column.
-# TODO: Separate features (X) and labels (y). The target label is 'isFraud'.
-# TODO: Scale numerical features using `StandardScaler` so that models like Ridge converge easily.
+df = df.drop(columns=['nameOrig', 'nameDest'])
+df['type'] = LabelEncoder().fit_transform(df['type'])
+X = df.drop(columns=['isFraud'])
+y = df['isFraud']
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
 
 # Step 2: Train/Test Split
-# TODO: Split the data into training and testing sets with an 80/20 split.
-#       Ensure you set a random state (e.g., random_state=42) for reproducibility and shuffle the data.
+X_train, X_test, y_train, y_test = train_test_split(
+    X_scaled, y, test_size=0.2, random_state=42, shuffle=True
+)
 
 # Step 3: Train Three Models
-# TODO: Train three models of your choice. If you are undecided, try the following classification models:
-#       1. Ridge Classifier (from sklearn.linear_model)
-#          - Suggested Hyperparameters: alpha=1.0 or 10.0, solver='auto'
-#       2. Random Forest (from sklearn.ensemble)
-#          - Suggested Hyperparameters: n_estimators=100, max_depth=10, random_state=42
-#       3. AdaBoost (from sklearn.ensemble)
-#          - Suggested Hyperparameters: n_estimators=50, learning_rate=1.0, random_state=42
+models = {
+    'ridge': RidgeClassifier(alpha=1.0, solver='auto'),
+    'rf': RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42),
+    'ada': AdaBoostClassifier(n_estimators=50, learning_rate=1.0, random_state=42)
+}
+for name, model in models.items():
+    model.fit(X_train, y_train)
 
 # Step 4: Evaluate Models
-# TODO: For each model, generate predictions on BOTH the training and test sets.
-# TODO: Calculate and report Accuracy, False Positive Rate (FPR), False Negative Rate (FNR), 
-#       True Positive Rate (TPR), and True Negative Rate (TNR) for each evaluation.
-#       (3 models x 2 sets = 6 sets of predictions -> calculate all 5 metrics for each).
-#       Tip: You can use `confusion_matrix(y_true, y_pred).ravel()` to easily extract 
-#       True Negatives (TN), False Positives (FP), False Negatives (FN), and True Positives (TP).
-#       Then compute the rates mathematically.
+def evaluate(y_true, y_pred, model_name, split_name):
+    tn, fp, fn, tp = confusion_matrix(y_true, y_pred).ravel()
+    accuracy = accuracy_score(y_true, y_pred)
+    fpr = fp / (fp + tn)
+    fnr = fn / (fn + tp)
+    tpr = tp / (tp + fn)
+    tnr = tn / (tn + fp)
+    print(f"\n{model_name} ({split_name})")
+    print(f"  Accuracy: {accuracy:.4f}")
+    print(f"  TPR: {tpr:.4f}  TNR: {tnr:.4f}")
+    print(f"  FPR: {fpr:.4f}  FNR: {fnr:.4f}")
+
+for name, model in models.items():
+    for split_name, X_split, y_split in [('Train', X_train, y_train), ('Test', X_test, y_test)]:
+        y_pred = model.predict(X_split)
+        evaluate(y_split, y_pred, name, split_name)
 
 # Step 5: Confusion Matrices
-# TODO: Create and save confusion matrices for all 3 models evaluated on both sets (6 plots total).
-#       Use `ConfusionMatrixDisplay` or `matplotlib.pyplot` to visualize them.
-#       Consider using a logarithmic color scale for better visibility of the minority class.
-#       Save each plot to the `results/` subfolder (e.g., `results/rf_test_cm.png`).
+for name, model in models.items():
+    for split_name, X_split, y_split in [('train', X_train, y_train), ('test', X_test, y_test)]:
+        y_pred = model.predict(X_split)
+        cm = confusion_matrix(y_split, y_pred)
+        fig, ax = plt.subplots(figsize=(6, 5))
+        disp = ConfusionMatrixDisplay(confusion_matrix=cm)
+        disp.plot(ax=ax, colorbar=False)
+        ax.set_title(f'{name} - {split_name}')
+        plt.tight_layout()
+        plt.savefig(os.path.join(results_dir, f"{name}_{split_name}_cm.png"), dpi=300)
+        plt.close()
 
 # Step 6: Creative Analysis
-# TODO: If you have time, try exploring other analysis ideas. For example:
-#       - Feature importance: plot the top contributing features for the Random Forest model.
-#       - Check for class imbalance. Since fraud is usually rare, should we use SMOTE, 
-#         adjust class weights, or rely on Precision-Recall / F1-Scores instead of raw accuracy?
-#       - Does a simple baseline model (always predicting 0) perform just as well on accuracy?
+importances = models['rf'].feature_importances_
+feature_names = df.drop(columns=['isFraud']).columns
+indices = np.argsort(importances)[::-1]
+
+plt.figure(figsize=(10, 5))
+plt.bar(range(len(importances)), importances[indices])
+plt.xticks(range(len(importances)), feature_names[indices], rotation=45, ha='right')
+plt.title('Random Forest Feature Importances')
+plt.tight_layout()
+plt.savefig(os.path.join(results_dir, "rf_feature_importance.png"), dpi=300)
+plt.close()
+
+# Baseline
+baseline_acc = accuracy_score(y_test, np.zeros(len(y_test)))
+print(f"\nBaseline accuracy (always predict 0): {baseline_acc:.4f}")
 
 # END STUDENT IMPLEMENTATION HERE

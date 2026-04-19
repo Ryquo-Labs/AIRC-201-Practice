@@ -1,11 +1,7 @@
 import numpy as np
 
 def relu_activation(arr: np.ndarray) -> np.ndarray:
-    """
-    Applies the Rectified Linear Unit (ReLU) activation element-wise.
-    Returns a new array where all negative values are replaced with 0.
-    """
-    raise NotImplementedError("Function not implemented")
+    return np.maximum(0, arr)
 
 def calculate_euclidean_distance(v1: np.ndarray, v2: np.ndarray) -> float:
     """
