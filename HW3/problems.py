@@ -81,4 +81,3 @@ plt.savefig(os.path.join(results_dir, "line_rolling_satisfaction.png"))
 plt.close()
 
 print(f"All plots generated and saved in {results_dir}")
-
